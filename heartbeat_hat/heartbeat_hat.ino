@@ -1,6 +1,6 @@
-#include <asq.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_LSM303_U.h>
+#include <asq_action.h>
 
 #define CALIBRATION_LED  10
 asq_make_const_array_t(uint8_t, LED_PINS1, 3, {9, 10, 12});
